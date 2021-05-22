@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::selection {
+    background: teal;
+    color: #FFF;
+}
+body {
+    background: dodgerblue;
+}
+h3 {
+    font-family:'Poppins', sans-serif;
+}
+.headerText{
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px 0 0 0;
+}
+.container {
+    position: absolute;  
+    background: #325288;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    height: auto;
+    border: 2px solid #f1e7f1;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.container .textInputBox textarea {
+    border: none;
+    margin: 0 10px;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-55%, 0%);
+    padding: 8px;
+    font-size: 18px;
+    outline: none;
+    resize: none;
+    height: 140px;
+}
+.container  input:focus {
+    box-shadow: 0 0 8px 2px teal;
+}
+.container .btnBox button {
+    background: #edffec;
+    border: none;
+    color: #0d335d;
+    font-size: 20px;
+    padding: 7px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.textBox {
+    color: #fff;
+    text-align: center;
+}
+.textBox > h2 {
+    font-weight:300;
+}
+.textInputBox{
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative;
+    height: 200px;
+}
+.btnBox {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+    position: relative;
+}
